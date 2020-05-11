@@ -20,14 +20,14 @@ function ShowCovid(props) {
   }, [filterCountry]);
   
 function onChangeCountry(e){
-    
+
        setFilterCountry(e.target.value)
 }
   
   return (
     <div>
       <div className="main">
-       <h1>Covid19 Updated !</h1>
+       <h1>Covid19 Fast Check !</h1>
         <div className="custom-select">
           <h2>Country</h2>
           <select onChange={(e) => onChangeCountry(e)}>
@@ -37,7 +37,7 @@ function onChangeCountry(e){
           </select>
         </div>
         <div className="img">
-          <img width="250px" height="150px" src={dataChild.flag} alt="" />
+          <img width="250px" height="150px" src={dataChild.flag}  />
         </div>
         <div className="list-items">
           <div className="item">
