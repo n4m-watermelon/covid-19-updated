@@ -1,0 +1,70 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 50px;
+    padding: 20px 5px;
+    border-radius:3px ;
+    -webkit-border-radius:3px ;
+    -moz-border-radius:3px ;
+    -ms-border-radius:3px ;
+    -o-border-radius:3px ;
+
+    background: rgba(0, 0, 0, .4);
+}
+.main  h1, h2{
+    color:  white;
+    letter-spacing: 2px;
+}
+
+ .list-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.list-items .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 15px;
+}
+.list-items .item p{
+    color:  white;
+    font-weight: 600;
+}
+.custom-select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-bottom:25px ;
+  }
+
+
+  .custom-select select {
+    border-radius: 5px;
+    padding: 5px 0;
+    width: 315px;
+    height: 40px;
+    font-size: 18px;
+    
+    text-align: center; 
+    outline: none;
+  }
+
+
+
+  .custom-select select option{
+    text-align:  center;
+  } 
+
+  .custom-select select :focus{
+      outline: none;
+  }
